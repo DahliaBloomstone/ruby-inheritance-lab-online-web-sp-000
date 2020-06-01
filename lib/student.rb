@@ -6,7 +6,7 @@ class Student  < User #changes the class definition so that it inherits from the
   end
 
   def learn(string) #takes in a string and adds to that string to the student's knowledge array.
-    knowledge << string 
+    knowledge << string #returns the student's knowledge array
   end
 
 end
