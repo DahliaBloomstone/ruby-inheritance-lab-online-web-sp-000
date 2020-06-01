@@ -1,5 +1,5 @@
-class Student  < User
-  attr_accessor :knowledge 
+class Student  < User #changes the class definition so that it inherits from the user. 
+  attr_accessor :knowledge
 
   def initialize
     @knowledge = []
