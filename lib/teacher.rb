@@ -4,5 +4,6 @@ KNOWLEDGE = ["a String is a type of data in Ruby", "programming is hard, but it'
 
 def teach
   knowledge.sample
-end 
+end
+
 end
